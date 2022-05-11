@@ -1,0 +1,223 @@
+/*-------------------------------- Fonts --------------------------------*/
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+    url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype')
+}
+
+/*-------------------------------- Global style --------------------------------*/
+html, body{
+    font-family: 'Poppins', sans-serif;
+    height:100%;
+    width: 100%;
+}
+
+/*-------------------------------- Backgrounds --------------------------------*/
+.bg-index{
+    background: url(../images/bg-index.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+/*-------------------------------- Buttons style --------------------------------*/
+.button-css-blue{
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    border:none;
+    color: #ffffff;
+    background-color: #124b8b;
+    outline:none;
+}
+.button-css-blue:hover{
+    background-color: #4778af;
+}
+.button-css-blue:focus{
+    outline:none;
+}
+.button-css-grey-outlined{
+    border-radius: 20px;
+    width: 100%;
+    min-height: 40px;;
+    color: #777272;
+    background-color: #ffffff;
+    outline:none;
+    font-weight: bold;
+    border: 2px solid #777272;
+}
+.button-css-grey-outlined:hover{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #777272;
+    border:2px solid #777272;
+    outline:none;
+}
+.button-css-grey-outlined:focus{
+    outline:none;
+}
+.button-css-blue-sm{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border:none;
+    color: #ffffff;
+    background-color: #124b8b;
+    outline:none;
+}
+.button-css-blue-sm:hover{
+    background-color: #4778af;
+}
+.button-css-blue-sm:focus{
+    outline:none;
+}
+/*-------------------------------- Inputs style --------------------------------*/
+.input-css{
+    border:1px solid #8b8b8b;
+    border-radius: 0;
+    box-shadow: none;
+    height: 40px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+.input-css::placeholder{
+    color:#8b8b8b;
+}
+.input-css:focus {
+    outline: none;
+    border:1px solid #000000;
+    box-shadow: none;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*-------------------------------- Selects style --------------------------------*/
+.select-css{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:1px solid #8b8b8b;
+    border-radius: 0;
+    color:#8b8b8b;
+    margin-left:0px;
+    margin-right:0px;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: none;
+    overflow: hidden;
+}
+.select-css:focus {
+    outline: none;
+    border: 1px solid #000000;
+    box-shadow: none;
+}
+
+/*-------------------------------- Links style --------------------------------*/
+.link-css-blue{
+    color:#124b8b;
+}
+.link-css-blue:hover{
+    color: #6986be;
+    text-decoration: none;
+}
+.link-css-light{
+    color: #d5d5d5;
+}
+.link-css-light:hover{
+    color: #838383;
+    text-decoration: none;
+}
+.link-css-grey{
+    color: #838383;
+}
+.link-css-grey:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+/*-------------------------------- Radio Buttons style --------------------------------*/
+.radio-text-css{
+    color:#8b8b8b;
+}
+.radio-button-css{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius:40px;
+    border:1px solid #8b8b8b;
+    outline: none;
+}
+.radio-button-css:checked{
+    border:2px solid #000000;
+    background-color: #ffffff
+}
+
+/*-------------------------------- Text style --------------------------------*/
+.text-size-sm{
+    font-size: 0.8em;
+}
+
+/*-------------------------------- Alert style --------------------------------*/
+.warning-css{
+    color: #ffffff;
+    font-size: 0.7em;
+    border-color: #f59b23;
+    background-color: #f59b23;
+    width: 100%;
+    min-height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+/*-------------------------------- Icons style --------------------------------*/
+.fa-facebook,.fa-instagram,.fa-envelope,.fa-twitter,.fa-youtube{
+    font-size:2em;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-envelope:hover,.fa-twitter:hover,.fa-youtube:hover{
+    color: #3f3f3f;
+}
+.fa-facebook{
+    color: #d5d5d5;
+}
+.fa-twitter{
+    color: #d5d5d5;
+}
+.fa-envelope{
+    color: #d5d5d5;
+}
+.fa-instagram{
+    color: #d5d5d5;
+}
+.fa-youtube{
+    color: #d5d5d5;
+}
+
+/*-------------------------------- Footer style --------------------------------*/
+.footer-lg{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000000;
+}
+.footer-lg-text-light{
+    color: #d5d5d5;
+ }
+.footer-lg-text-grey{
+    color: #838383;
+}
+.footer-lg-li{
+    list-style:none;
+}
+.footer-sm{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
