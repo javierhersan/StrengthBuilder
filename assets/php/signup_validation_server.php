@@ -113,7 +113,7 @@
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = "hs.developers.official@gmail.com";
-        $mail->Password = "strengthbuilder2019";
+        $mail->Password = "password";
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         $mail->setFrom('hs.developers.official@gmail.com', 'StrengthBuilder');
